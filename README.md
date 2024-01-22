@@ -8,13 +8,13 @@ end)
 
 
 local Tab = Window:NewTab("admin")
-local adminSection = Tab:NewSection("เเอดมิน")
-Section:NewButton("เเอดมิน", "พลังเเอดมิน", function()
+local adminSection = Tab:NewSection("admin")
+Section:NewButton("admin", "พลังเเอดมิน", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
 local Tab = Window:NewTab("blade  ball")
 local blade ballSection = Tab:NewSection("blade ball")
-Section:NewButton("เบลดบอล", "สคริปเบลดบอล", function()
+Section:NewButton("blade ball", "blade ball", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Rylvns/EnvisionExploits/master/game-scripts/Blade%20Ball/source.lua"))();
 end)
