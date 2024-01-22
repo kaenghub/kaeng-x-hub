@@ -9,7 +9,7 @@ end)
 
 local Tab = Window:NewTab("admin")
 local adminSection = Tab:NewadminSection("admin")
-adminSectionadmin:NewButton("admin", "พลังเเอดมิน", function()
+adminSection:NewButton("admin", "พลังเเอดมิน", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
 
