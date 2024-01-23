@@ -2,6 +2,12 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("darkstory777 x hub", "BloodTheme")
 local Tab = Window:NewTab("bloxfurit")
 local Section = Tab:NewSection("hackbloxfuit")
-Section:NewButton("ButtonText", "ButtonInfo", function()
+Section:NewButton("Buttonhack", "ButtonInfo", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+end)
+
+local Tab = Window:NewTab("admin")
+local adminSection = Tab:NewSection("hackadmin")
+adminSection:NewButton("Buttonhack", "ButtonInfo", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
 end)
